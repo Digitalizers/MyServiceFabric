@@ -33,6 +33,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ApplicationGateway\ApplicationGateway.csproj" />
+    <ProjectReference Include="..\CacheService\CacheService.csproj" />
+    <ProjectReference Include="..\CalculatorService\CalculatorService.csproj" />
+    <ProjectReference Include="..\CalculatorWebApi\CalculatorWebApi.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <PropertyGroup>
