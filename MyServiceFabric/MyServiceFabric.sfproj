@@ -36,6 +36,8 @@
     <ProjectReference Include="..\CacheService\CacheService.csproj" />
     <ProjectReference Include="..\CalculatorService\CalculatorService.csproj" />
     <ProjectReference Include="..\CalculatorWebApi\CalculatorWebApi.csproj" />
+    <ProjectReference Include="..\ExpProcessor\ExpProcessor.csproj" />
+    <ProjectReference Include="..\ExpressionProcessorWebApi\ExpressionProcessorWebApi.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <PropertyGroup>
